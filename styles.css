@@ -86,6 +86,10 @@ a:hover {
     margin-left: 10px;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 #signin-container button span {
     height: 20px;
     width: 16px;
