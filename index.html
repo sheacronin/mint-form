@@ -8,16 +8,27 @@
 </head>
 <body>
     <div id="signin-container">
-        <p>Already have an Intuit account?</p>
-        <p><a href="#">I forgot my User ID or Password</a></p>
-        <button>Sign In</button>
+        <div>
+            <p>Already have an Intuit account?</p>
+            <p><a href="#">I forgot my User ID or Password</a></p>
+        </div>
+        <button><span></span>Sign In</button>
     </div>
-    <header>
+    <header id="links-header">
         <h1>Intuit</h1>
         <ul>
-            <li>Mint</li>
-            <li>quickbooks</li>
-            <li>turbotax</li>
+            <li id="mint-link">
+                <span></span>
+                Mint
+            </li>
+            <li id="quickbooks-link">
+                <span></span>
+                Quickbooks
+            </li>
+            <li id="turbotax-link">
+                <span></span>
+                TurboTax
+            </li>
         </ul>
     </header>
     <form>
@@ -42,24 +53,26 @@
             <input type="password" name="confirm-password">
         </label>
         <button>Create Account</button>
-        <p>
-            By selecting Create account, you agree to our Terms and have read and acknowledge our Global Privacy Statement.
+        <p id="terms-of-use">
+            By selecting Create account, you agree to our <a href="#">Terms</a> and have read and acknowledge our <a href="#">Global Privacy Statement</a>.
             <b>Updated on January 10, 2022</b>
         </p>
-        <footer>Invisible reCAPTCHA by Google Privacy Policy and Terms of Use.</footer>
+        <footer>Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use</a>.</footer>
     </form>
     <footer>
-        <ul>
-            <li>Legal</li>
-            <li>Privacy</li>
-            <li>Security</li>
-        </ul>
-        <p>
-            © 2022 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
-            Terms and conditions, features, support, pricing, and service options subject to change without notice.
-        </p>
+        <div id="legal-footer">
+            <ul>
+                <li>Legal</li>
+                <li>Privacy</li>
+                <li>Security</li>
+            </ul>
+            <p>
+                © 2022 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
+                Terms and conditions, features, support, pricing, and service options subject to change without notice.
+            </p>
+        </div>
         <div id="bottom-footer">
-            Privacy Settings
+            <a href="#">Privacy Settings</a>
         </div>
     </footer>
 </body>
